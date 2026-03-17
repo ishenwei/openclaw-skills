@@ -20,7 +20,7 @@ import argparse
 import sys
 
 # 导入配置
-from config import RABBITMQ_CONFIG, QUEUES, AGENT_ROLES
+from config import RABBITMQ_CONFIG, QUEUES, AGENT_ROLES, get_queue_name
 
 
 def setup_rabbitmq(host=None, username=None, password=None):
